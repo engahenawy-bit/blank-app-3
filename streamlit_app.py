@@ -4,3 +4,5 @@ st.title("Wells Data")
 st.write(
     "this program is designed for Nyel Visualization program")
 tabs=st.tabs(["wells","compare"])
+from google.colab import files
+	uploaded = files.upload()
